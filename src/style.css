@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Andale Mono', monospace;
+  };
+}
+
+@layer components {
+  section  {
+    @apply mt-2;
+  };
+  #myRotate {
+    transform: rotateZ(90deg);
+  }
+}
+
+
+/* Background gradient */
+.radial-gradient {
+  background: radial-gradient(circle, white 0%, black 20%, white 40%, black 60%, white 80%, black 100%);
+  animation: background-animation 60s linear infinite alternate;
+  background-size: 400% 400%;
+}
+@keyframes background-animation {
+  0% {
+    background-position-x: 0%;
+    background-position-y: 100%;
+  }
+  100% {
+    background-position: 100%;
+    background-position-y: 10%;
+  }
+}
+/* Background gradient reverse */
+.radial-gradient-reverse {
+  background: radial-gradient(circle, white 0%, black 20%, white 40%, black 60%, white 80%, black 100%);
+  animation: background-animation-reverse 60s linear infinite alternate;
+  background-size: 400% 400%;
+}
+@keyframes background-animation-reverse {
+  0% {
+    background-position-x: 0%;
+    background-position-y: 100%;
+  }
+  100% {
+    background-position: 100%;
+    background-position-y: 10%;
+  }
+}

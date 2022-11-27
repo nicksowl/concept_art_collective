@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concept Art collective</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <script src="./src/main.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core">
+
+  <!-- Inlucde all SEO friendly tags for meta and so on -->
+</head>
+
+
+<!-- XYZ animation -->
+<style>
+  .item-group {
+    --xyz-rotate-z: 1turn;
+    --xyz-origin: center -200%;
+    --xyz-duration: 2s;
+    --xyz-scale-x: 0;
+    --xyz-scale-y: 0;
+  }
+</style>
+
+<body class="bg-black">
+
+  <main>
+
+    <!-- Landing screen -->
+    <section data-aos="fade-in" data-aos-duration="3000" 
+    class="
+      radial-gradient 
+      h-screen flex flex-col justify-center items-center">
+
+      <!-- Logo --> 
+      <div class="square xyz-in" xyz="fade front-5">
+
+        <div class="
+        p-20
+        w-96 h-96
+        text-left
+        grid grid-flow-col 
+        grid-rows-5 grid-cols-4
+        ">
+        
+          <h1 class="
+          row-span-1 col-span-4
+          uppercase text-white text-center text-5xl font-bold subpixel-antialiased
+          ">Concept</h1>
+    
+          <div class="
+          relative
+          col-span-1 row-span-4
+          ">
+
+            <p id="myRotate" class="
+            relative
+            pb-7
+            top-14 -left-14
+            w-32
+            text-white text-xs">
+              art collective
+            </p>
+        
+          </div>
+          <!-- relative rotate-90 top-24 right-20 -->
+          <!-- rotate-90 -scale-100 -->
+          <!-- relative top-20 right-16 -->
+    
+    
+          <img class="
+          pb-10
+          w-full h-full
+          col-span-3 row-span-4
+    
+          " src="./src/assets/scribble.svg" alt="">
+    
+        </div>
+      </div>
+
+    <!-- Scroll down -->
+      <div id="scroll_down" class="flex flex-row gap-2 invisible">
+        <div>Instagram |</div>
+        <div class="hover:translate-y-32">mail |</div>
+        <div>Facebook</div>
+      </div>
+   
+    </section>
+
+    <!-- Use on scroll animation for different section. XYZ  -->
+    
+    <!-- Concept art collective down original -->
+    <!-- 
+      Should be canvas section
+      Concept art collective moves around the page in random way, might also have on click
+     -->
+    <section data-aos="fade-in" data-aos-duration="3000"
+      class="
+      py-16 px-20 
+      radial-gradient-reverse 
+      h-screen flex flex-row justify-center sm:gap-32 gap-16">
+
+
+      <div class="bg-white p-2 item-group" xyz>
+        <div class="text-4xl font-extrabold xyz-in">
+          <p>C</p>
+          <p>O</p>
+          <p>N</p>
+          <p>C</p>
+          <p>E</p>
+          <p>P</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>A</p>
+          <p>R</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>L</p>
+          <p>L</p>
+          <p>E</p>
+          <p>C</p>
+          <p>I</p>
+          <p>V</p>
+          <p>E</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>N</p>
+          <p>C</p>
+          <p>E</p>
+          <p>P</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>A</p>
+          <p>R</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>L</p>
+          <p>L</p>
+          <p>E</p>
+          <p>C</p>
+          <p>I</p>
+          <p>V</p>
+          <p>E</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>N</p>
+          <p>C</p>
+          <p>E</p>
+          <p>P</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>A</p>
+          <p>R</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>L</p>
+          <p>L</p>
+          <p>E</p>
+          <p>C</p>
+          <p>I</p>
+          <p>V</p>
+          <p>E</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>N</p>
+          <p>C</p>
+          <p>E</p>
+          <p>P</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>A</p>
+          <p>R</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>L</p>
+          <p>L</p>
+          <p>E</p>
+          <p>C</p>
+          <p>I</p>
+          <p>V</p>
+          <p>E</p>
+        </div>
+      </div>
+      
+      <div>
+        <div class="text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>N</p>
+          <p>C</p>
+          <p>E</p>
+          <p>P</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>A</p>
+          <p>R</p>
+          <p>T</p>
+        </div>
+        <div class="pt-20 text-4xl font-extrabold">
+          <p>C</p>
+          <p>O</p>
+          <p>L</p>
+          <p>L</p>
+          <p>E</p>
+          <p>C</p>
+          <p>I</p>
+          <p>V</p>
+          <p>E</p>
+        </div>
+      </div>  
+
+    </section>
+
+    <!-- Eperement with Pixie JS -->
+    <section data-aos="fade-in" data-aos-duration="3000"
+     id="canvas-1" class="flex flex-col justify-center py-16 radial-gradient w-screen h-screen">
+
+      <div class="mr-20 p-4 text-sm bg-white mb-16">
+        <p>CONCEPT art collective has the purpose to promote experimental forms of contemporary art and support emerging artists by creating cultural events and growing networks of opportunities, relationships, and communication among artists, art enthusiasts, cultural professionals.</p>
+      </div>
+
+      <div class="ml-20 p-4 text-sm bg-white mb-16">
+        <p>CONCEPT was created to enhance a variety of forms in experimental art in order to raise public awareness and to introduce local/contemporary art to people. We long for      durational, crosspollinating relations with the participants in order to create an ecosystem of individuals concerning arts, form alliances across different collectives, bodies, and fields and so present many different art forms and their intersection.</p>
+      </div>
+        <p class="mr-20 p-4 text-sm bg-white mb-16">
+          Our primary aims include the fostering and promotion of local contemporary art by facilitating multidisciplinary events, exhibitions, performances, and workshops. Our main interest is to enhance different art forms in their intersection.Our thinking is rhizomatic, our curatorial apparatus is nomadic and tentacular.
+        </p>
+      <div class="ml-20 p-4 text-sm bg-white mb-16">
+        <p>
+          CONCEPT is addressed to different targets, offering opportuni- ties and possibilities for new collaborations in order to spread new forms of experimental art approaches and develop new projects.
+        </p>
+      </div>
+      <div class="flex flex-row justify-center gap-2">
+        <div>Instagram |</div>
+        <div class="hover:translate-y-32">mail |</div>
+        <div>Facebook</div>
+      </div>
+    </section>
+
+    
+
+
+  </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
