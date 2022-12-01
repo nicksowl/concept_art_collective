@@ -50,3 +50,15 @@
     background-position-y: 10%;
   }
 }
+
+/* Hide event description on small screens */
+@media only screen and (max-width: 1072px) {
+  #event-description {
+    display: none;
+  }
+}
+
+/* class that add transition for background */
+.bg-transition {
+  transition: background 0.5s ease-in-out;
+}

@@ -11,7 +11,11 @@ module.exports = {
       },
       sacle: {
         '-1': '-1',
-      }
+      },
+      width: {
+        '416': '416px',
+        '432': '432px',
+      },
     },
   },
   plugins: [],
