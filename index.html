@@ -5,15 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Concept Art collective</title>
+  <title>Concept Art Collective</title>
   <link rel="stylesheet" href="./src/style.css">
   <script src="./src/main.js" defer></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core">
-
-  <!-- Inlucde all SEO friendly tags for meta and so on -->
+  <link rel="shortcut icon" href="./src/assets/scribble.svg" type="image/x-icon">
+  <meta name="description" content="CONCEPT Art Collective experementing with contemporary art forms in Copenhagen, Denmark."/>
 </head>
-
 
 <!-- XYZ animation -->
 <style>
@@ -26,7 +25,7 @@
   }
 </style>
 
-<body class="bg-black">
+<body class="bg-black max-w-screen">
 
   <main>
 
@@ -48,20 +47,24 @@
         ">
         
           <h1 class="
-          row-span-1 col-span-4
-          uppercase text-white text-center text-5xl font-bold subpixel-antialiased
-          ">Concept</h1>
+          row-span-1 col-span-4 
+          antialiased
+          text-white text-center text-5xl font-semibold
+          ">CONCEPT</h1>
     
           <div class="
           relative
           col-span-1 row-span-4
           ">
 
+          <!-- font-semibold antialiased text-white text-3xl -->
+
             <p id="myRotate" class="
             relative
             pb-7
             top-14 -left-14
             w-32
+            font-semibold antialiased
             text-white text-xs">
               art collective
             </p>
@@ -77,7 +80,7 @@
           w-full h-full
           col-span-3 row-span-4
     
-          " src="./src/assets/scribble.svg" alt="">
+          " src="./src/assets/scribble.svg" alt="Concept Art Collective Signature">
     
         </div>
       </div>
@@ -397,75 +400,76 @@
 
     </section> -->
 
-
-
-
     <!-- Manifesto -->
     <section data-aos="fade-in" data-aos-duration="3000" class="flex flex-col justify-center py-16 radial-gradient w-screen min-h-screen">
 
-     <div
-     class="flex justify-center
-     p-4 mb-16"
+    <!-- Title  -->
+     <div class="flex justify-center p-4 mb-16"
      >
-        <h1 onmouseenter="changeBgWhite(this)"
-        class="text-white rounded p-4 text-3xl radial-gradient text-center">Manifest</h1>
+        <h1 class="font-semibold antialiased text-white text-3xl rounded p-4 radial-gradient text-center"
+        onmouseover="changeBgWhite(this)"
+        >Manifest</h1>
      </div>
-
-      <div onmouseenter="changeBgRad(this)"
+     <!-- Text 1 -->
+      <div class="text-neutral-800 indent-8 leading-relaxed antialiased drop-shadow-lg max-w-4xl rounded-r mr-20 p-4 text-sm bg-white mb-16"
+      onmouseenter="changeBgRad(this)"
       data-aos="fade-right"
       data-aos-offset="300"
       data-aos-duration="1000" 
       data-aos-easing="ease-in-sine"
-      class="drop-shadow-lg max-w-4xl rounded-r mr-20 p-4 text-sm bg-white mb-16">
-        <p>CONCEPT art collective has the purpose to promote experimental forms of contemporary art and support emerging artists by creating cultural events and growing networks of opportunities, relationships, and communication among artists, art enthusiasts, cultural professionals.</p>
+      >
+        <p><strong class="text-xl font-bold">CONCEPT art collective</strong> has the purpose to promote experimental forms of contemporary art and support emerging artists by creating cultural events and growing networks of opportunities, relationships, and communication among artists, art enthusiasts, cultural professionals.</p>
       </div>
-
-      <div onmouseenter="changeBgRad(this)"
+      <!-- Text 2 -->
+      <div
+      class="text-neutral-800 indent-8 leading-relaxed antialiased drop-shadow-lg rounded-l ml-20 p-4 text-sm bg-white mb-16" 
+      onmouseenter="changeBgRad(this)"
       data-aos="fade-left"
       data-aos-offset="300"
       data-aos-duration="2000" 
-      class="drop-shadow-lg rounded-l ml-20 p-4 text-sm bg-white mb-16">
-        <p class="pb-4">CONCEPT was created to enhance a variety of forms in experimental art in order to raise public awareness and to introduce local/contemporary art to people. We long for durational, crosspollinating relations with the participants in order to create an ecosystem of individuals concerning arts, form alliances across different collectives, bodies, and fields and so present many different art forms and their intersection.</p>
+      >
+        <p class="pb-4"><strong class="text-xl font-bold">CONCEPT was created to enhance a variety of forms in experimental art</strong> in order to raise public awareness and to introduce local/contemporary art to people. We long for durational, crosspollinating relations with the participants in order to create an ecosystem of individuals concerning arts, form alliances across different collectives, bodies, and fields and so present many different art forms and their intersection.</p>
         <p class="pb-4">
-          Our primary aims include the fostering and promotion of local contemporary art by facilitating multidisciplinary events, exhibitions, performances, and workshops. Our main interest is to enhance different art forms in their intersection.Our thinking is rhizomatic, our curatorial apparatus is nomadic and tentacular.
+          <strong class="text-xl font-bold">Our primary aims include the fostering and promotion of local contemporary art</strong> by facilitating multidisciplinary events, exhibitions, performances, and workshops. Our main interest is to enhance different art forms in their intersection.Our thinking is rhizomatic, our curatorial apparatus is nomadic and tentacular.
         </p>
         <p class="pb-4">
-          CONCEPT is addressed to different targets, offering opportuni- ties and possibilities for new collaborations in order to spread new forms of experimental art approaches and develop new projects.
+          <strong class="text-xl font-bold">CONCEPT is addressed to different targets</strong>, offering opportuni- ties and possibilities for new collaborations in order to spread new forms of experimental art approaches and develop new projects.
         </p>
 
       </div>
-      
+      <!-- Links -->
       <div
-      class="text-gray-400
+      class="
+      text-neutral-800 eading-relaxed antialiased
       flex flex-row justify-center gap-2">
-        <div>Instagram |</div>
-        <div class="hover:translate-y-32">mail |</div>
-        <div>Facebook</div>
+        <div class="hover:text-white hover:font-bold"><a href="https://www.instagram.com/concept_art_collective" target="_blank">Ig</a></div>
+        <div> | </div>
+        <div class="hover:text-white hover:font-bold">+45 71 31 70 37</div>
+        <div> | </div>
+        <div class="hover:text-white hover:font-bold"><a href="https://www.facebook.com/people/Concept-Art-Collective/100065089235500/" target="_blank">Fb</a></div>
       </div>
-
+      <!-- Scribble -->
       <div 
       class="text-gray-400
       flex flex-row justify-center gap-2">
-        <img src="./src/assets/scribble.svg" alt="" srcset="">
+        <img src="./src/assets/scribble.svg" alt="" srcset="Concept Art Collective Signature">
       </div>
 
     </section>
-
 
     <!-- Events -->
     <!-- 
         Section with picture inside taking the whole screen
      -->
      <section class="flex flex-col justify-center py-16 radial-gradient w-screen min-h-screen"
-     data-aos="fade-in" data-aos-duration="3000"
-     >
-
+     data-aos="fade-in" data-aos-duration="3000">
+     <!-- Title -->
       <div
       class="flex justify-center
       p-4 mb-16"
       >
          <h1 onmouseenter="changeBgWhite(this)"
-         class="drop-shadow-lg text-white rounded p-4 text-3xl radial-gradient text-center">Events</h1>
+         class="font-semibold antialiased drop-shadow-lg text-white rounded p-4 text-3xl radial-gradient text-center">Events</h1>
       </div>
 
               <!-- Event One -->
@@ -475,10 +479,10 @@
               data-aos-duration="1000" 
               data-aos-easing="ease-in-sine"
               >
-                <div onmouseenter="changeBgRad(this)" class="drop-shadow-lg rounded-r flex p-4 mr-20 bg-white">
-                  <img linkSrc="https://www.facebook.com/events/184308945967167" onclick="fbEvent(this)" class="hover:cursor-pointer max-w-md" src="./src/assets/event1-1.png" alt="" srcset="">
+                <div onmouseenter="changeBgRad(this)" class="text-neutral-800 indent-8 leading-relaxed antialiased drop-shadow-lg rounded-r flex p-4 mr-20 bg-white">
+                  <img linkSrc="https://www.facebook.com/events/184308945967167" onclick="fbEvent(this)" class="opacity-80 hover:cursor-pointer max-w-md" src="./src/assets/event1-1.webp" alt="" srcset="Event poster">
                   <div id='event-description' class="pl-4">
-                    <p class="text-sm">Ellen Rye’s large scale paintings have a realistic base, though, they are interlaced with dreamy elements and structures, which have strong individual symbolism. Her canvases are full of strange clusters and unusual alignments, lifeless existences in between. 
+                    <p class="text-sm"><strong class="text-xl font-bold">Ellen Rye’s large scale paintings</strong> have a realistic base, though, they are interlaced with dreamy elements and structures, which have strong individual symbolism. Her canvases are full of strange clusters and unusual alignments, lifeless existences in between. 
 
                       Rye’s figures stay often still, in a passive position, without movements - in some kind of resigned gesture of powerlessness. She portraits the still side of youth life enriched by the vivid inner interplay of dreamy elements. Her large scale canvases use photography as a base for composition, but during the process, Rye creates her own reality by attaching new layers of her symbolistic inner narration.</p>
                   </div>
@@ -492,12 +496,12 @@
               data-aos-duration="1000" 
               data-aos-easing="ease-in-sine"
               >
-                <div 
+                <div class="text-neutral-800 indent-8 leading-relaxed antialiased drop-shadow-lg rounded-l flex p-4 ml-20 bg-white"
                 onmouseenter="changeBgRad(this)"
-                class="drop-shadow-lg rounded-l flex p-4 ml-20 bg-white">
-                  <img linkSrc="https://www.facebook.com/events/3059381124107984/" onclick="fbEvent(this)" class="hover:cursor-pointer max-w-md" src="./src/assets/event2-1.png" alt="" srcset="">
+                >
+                  <img linkSrc="https://www.facebook.com/events/3059381124107984/" onclick="fbEvent(this)" class="opacity-80 hover:cursor-pointer max-w-md" src="./src/assets/event2-1.webp" alt="Event poster" srcset="">
                   <div id='event-description' class="pl-4">
-                    <p class="text-sm">Site-specific performance of Arnold Schoenberg’s fifteen-part song cycle The Book of the Hanging Gardens, setting poems of Stefan George.
+                    <p class="text-sm">Site-specific performance of <strong class="text-xl font-bold">Arnold Schoenberg’s fifteen-part song cycle The Book of the Hanging Gardens, setting poems of Stefan George.</strong>
                       The performance will be held outside in the special acoustic environment. Under the bridge at Christians Brygge.
                       On the water. In the water. Follow the wind.
                       
@@ -511,13 +515,13 @@
      </section>
 
     <!-- Collective -->
-    <section data-aos="fade-in" data-aos-duration="3000" class="flex flex-col justify-center pts-16 radial-gradient w-screen h-auto min-h-screen">
-
+    <section data-aos="fade-in" data-aos-duration="3000" class="flex flex-col justify-center pt-16 radial-gradient w-screen h-auto min-h-screen">
+      <!-- Title -->
       <div
         class="flex justify-center
         p-4 mb-16"
       >
-         <h1 onmouseover="changeBgWhite(this)" class="drop-shadow-lg text-white rounded p-4 text-3xl radial-gradient text-center">Collective</h1>
+         <h1 onmouseover="changeBgWhite(this)" class="font-semibold antialiased drop-shadow-lg text-white rounded p-4 text-3xl radial-gradient text-center">Collective</h1>
       </div>
 
       <!-- Profile text -->
@@ -525,48 +529,55 @@
       data-aos="fade-right"
       data-aos-offset="300"
       data-aos-duration="2000" 
-      class="drop-shadow-lg rounded-r mr-20 p-4 text-sm bg-white mb-16">
-        <p class="">MA.BARBORA KOVACOVA educated in Aesthetic & Philosophy at University of Constantine the Philosopher in Nitra, SR. She have been working as a lector of creative workshops with abused, neglected, ADHD children. After my studies I was working in DOX- contemporary gallery in Prague. Recently I set Estet Ceramics Studio, where I concentrate at experimental ceramics and externally working as a lector of Ceramics workshops. Last year I have made a base for Organic Flower Garden in Lolland with an aim to spread the awarness about negative effect of pesticided flowers for enviroment and humans. As well, I am working as a free lance graphic designer, photographer and visual artist.</p>
+      class="text-neutral-800 indent-8 leading-relaxed antialiased drop-shadow-lg rounded-r mr-20 p-4 text-sm bg-white mb-16">
+        <p class=""><strong class="text-xl font-bold">MA.BARBORA KOVACOVA</strong> educated in Aesthetic & Philosophy at University of Constantine the Philosopher in Nitra, SR. She have been working as a lector of creative workshops with abused, neglected, ADHD children. After my studies I was working in DOX- contemporary gallery in Prague. Recently I set Estet Ceramics Studio, where I concentrate at experimental ceramics and externally working as a lector of Ceramics workshops. Last year I have made a base for Organic Flower Garden in Lolland with an aim to spread the awarness about negative effect of pesticided flowers for enviroment and humans. As well, I am working as a free lance graphic designer, photographer and visual artist.</p>
       </div>
       <div onmouseenter="changeBgRad(this)"
       data-aos="fade-left"
       data-aos-offset="300"
       data-aos-duration="2000" 
-      class="drop-shadow-lg rounded-l ml-20 p-4 text-sm bg-white mb-16">
-        <p class="">MA.GRETE ASTOVER Her background includes studies on variety of art forms starting in first grade in an art school to fashion design in a university. She have worked as a costume designer, stylist and a fashion curator. On the side I have done illustrations and various art projects. As I devoted most of my life to fashion I have a strong visual understanding of expression on a human body, shapes and colors, movement and structure. I see myself as a constant experimentor of materials, techniques and styles. Furthermore during school and university I have had classes in graphic art(lithography, intaglio, photopolymer, linocut), classical styles of painting and drawing,workshops. Last year I have made a base for Organic Flower Garden in Lolland with an aim to spread the awarness about negative effect of pesticided flowers for enviroment and humans. As well, I am working as a free lance graphic designer, photographer and visual artist.</p>
+      class="text-neutral-800 indent-8 leading-relaxed antialiased drop-shadow-lg rounded-l ml-20 p-4 text-sm bg-white mb-16">
+        <p class=""><strong class="text-xl font-bold">MA.GRETE ASTOVER</strong> Her background includes studies on variety of art forms starting in first grade in an art school to fashion design in a university. She have worked as a costume designer, stylist and a fashion curator. On the side I have done illustrations and various art projects. As I devoted most of my life to fashion I have a strong visual understanding of expression on a human body, shapes and colors, movement and structure. I see myself as a constant experimentor of materials, techniques and styles. Furthermore during school and university I have had classes in graphic art(lithography, intaglio, photopolymer, linocut), classical styles of painting and drawing,workshops. Last year I have made a base for Organic Flower Garden in Lolland with an aim to spread the awarness about negative effect of pesticided flowers for enviroment and humans. As well, I am working as a free lance graphic designer, photographer and visual artist.</p>
       </div>
 
       <div class="flex justify-center"
       data-aos="fade-out"
       data-aos-offset="300"
       data-aos-duration="2000"
+      id="opacity-decrease-parent"
       >
-        <img class="w-full" src="./src/assets/profile1-1.png" alt="">
+        <img id="opacity-decrease-child" class="opacity-80 transition-opacity" class="w-fit" src="./src/assets/profile1-1.webp" alt="Cocenpt Art Collective Profile image">
       </div>
 
     </section>
 
     <!-- Contact -->
-    <section data-aos="fade-in" data-aos-duration="3000" class="flex flex-col justify-center py-16 radial-gradient w-screen min-h-screen">
+    <section data-aos="fade-in" data-aos-duration="3000" class="mb-2 flex flex-col justify-center py-16 radial-gradient w-screen min-h-screen">
        
-       <div
-       class="text-gray-400
-       flex flex-row justify-center gap-2">
-         <div>Instagram |</div>
-         <div class="hover:translate-y-32">mail |</div>
-         <div>Facebook</div>
-       </div>
- 
-       <div 
-       class="text-gray-400
-       flex flex-row justify-center gap-2">
-         <img src="./src/assets/scribble.svg" alt="" srcset="">
-       </div>
+      <!-- Links -->
+      <div
+      class="pb-2
+      text-neutral-800 eading-relaxed antialiased
+      flex flex-row justify-center gap-2">
+        <div class="hover:text-white hover:font-bold"><a href="https://www.instagram.com/concept_art_collective" target="_blank">Ig</a></div>
+        <div> | </div>
+        <div class="hover:text-white hover:font-bold">+45 71 31 70 37</div>
+        <div> | </div>
+        <div class="hover:text-white hover:font-bold"><a href="https://www.facebook.com/people/Concept-Art-Collective/100065089235500/" target="_blank">Fb</a></div>
+      </div>
+      <!-- Address -->
+      <div class="text-neutral-800 eading-relaxed antialiased
+      flex flex-row justify-center">
+        <p class="hover:text-white hover:font-bold">Ny Vestergade 9, 1471 København</p>
+      </div>
+      <!-- Scribble -->
+      <div 
+      class="text-gray-400
+      flex flex-row justify-center gap-2">
+        <img src="./src/assets/scribble.svg" alt="" srcset="">
+      </div>
  
      </section>
-
-    
-
 
   </main>
 
